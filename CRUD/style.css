@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(4, 20, 29);
+  color: white;
+}
+.conteudo {
+  background-color: #183a37;
+  text-align: center;
+  position: relative;
+  width: 75%;
+  margin: auto;
+  padding: 5px 0 10px 0;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: rgb(173, 182, 189) 5px solid;
+}
+.titulo {
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+
+.cadastro {
+  padding: 5px;
+  text-align: center;
+}
+.editando {
+  padding: 20px;
+  display: none;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  height: 90%;
+  width: 90%;
+  position: absolute;
+  background-color: rgba(9, 188, 138, 0.9);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border-radius: 10px;
+  border: rgb(173, 182, 189) 5px solid;
+  font-weight: bolder;
+  color: #183a37;
+}
+.editando button {
+  width: 100px;
+}
+.editando input,
+.editando button {
+  margin: 10px;
+}
+
+input {
+  margin-bottom: 25px;
+  height: 25px;
+  padding-left: 5px;
+  width: 162px;
+}
+.cadastro button {
+  height: 27px;
+  border: none;
+  padding: 0px 5px 0px 5px;
+}
+
+.dados {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+td {
+  text-align: left;
+
+  padding: 5px;
+  width: 140px;
+  border: black 2px solid;
+}
+tr {
+  margin: 0;
+  padding: 0;
+}
+
+.editar,
+.apagar {
+  width: 60px;
+  height: 25px;
+}

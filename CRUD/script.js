@@ -66,10 +66,10 @@ function editar(i) {
 
   let temporario = ` <div id="${i}">
   <h3>Editando dados</h3>
-  <p> Nome<input id="editnome" type="text" value="${todosUsuarios[i].Nome}" /> E-Mail<input id="editemail" type="text" value="${todosUsuarios[i].EMail}" /></p>
+  <div class="inputsEditando"><div> <input id="editnome" type="text" value="${todosUsuarios[i].Nome}" placeholder="Nome" /> <input id="editemail" type="text" value="${todosUsuarios[i].EMail}" placeholder="E-Mail" /></div>
   
-  <p> Telefone <input id="edittelefone" type="text" value="${todosUsuarios[i].Telefone}" /> Endereço<input id="editcidade" type="text" value="${todosUsuarios[i].Cidade}" /></p>
-  
+  <div>  <input id="edittelefone" type="text" value="${todosUsuarios[i].Telefone}" placeholder="Telefone" /> <input id="editcidade" type="text" value="${todosUsuarios[i].Cidade}" placeholder="Endereço" /></div>
+  </div>
   <p><button id="confirmar" class="btn editar" onclick="confirmar('${i}')">Confirmar</button>
   <button id="cancelar" class="btn apagar" onclick="cancelar()">Cancelar</button></p>
 </div>`;
